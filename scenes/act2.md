@@ -912,7 +912,7 @@ b: 你為什麼之前無視我？
 
 `hong({body:"facepalm"})`
 
-h: 你這隻^笨狼^, 笨到家了。
+h: 你這隻^笨狼^，笨到家了。
 
 `hong({body:"facepalm_2"})`
 
@@ -1332,7 +1332,7 @@ publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: 記得喝光哦, ^小寶貝^!
+r: 記得喝光哦，^小寶貝^!
 
 ```
 hong({body:"hold"});
@@ -1639,7 +1639,7 @@ publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: 那麼再見, ciao, adios, au revoir
+h2: 那麼再見，ciao, adios, au revoir
 
 r: 看來今天是你心裡的那個猛獸佔了上風，下次我可以給你調點更猛的，不過記得回來哦！
 
