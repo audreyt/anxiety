@@ -6,7 +6,7 @@
 
 (...51)
 
-[开始游戏！](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[開始遊戲！](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: 所以在我们开始之前， *你* 有什么阅读偏好？
+n3: 所以在我們開始之前， *你* 有什麼閱讀偏好？
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: 好，让我们的故事开始吧...
+n3: 好，讓我們的故事開始吧...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: 这是一个人类
+n2: 這是一個人類
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: 而这是人类的焦虑
+n: 而這是人類的焦慮
 
-n: _你_ 扮演焦虑
+n: _你_ 扮演焦慮
 
 (#act1_normal)
 
@@ -66,45 +66,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 不。不，没有，没在听。我得看下手机。
+h: 不。不，沒有，沒在聽。我得看下手機。
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 你的任务是从 *危险* 中保护人类
+n: 你的任務是從 *危險* 中保護人類
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: 妈耶！你又在把生命和微博一起刷走了！
+b: 天啊！你又在把人生和推特一起刷走了！
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: 是啊我在想为什么我不多坐着然后听我的内心发言。
+h: 是啊我在想為什麼我不多坐著然後聽我的內心發言。
 
 `hong({eyes:"neutral"});`
 
-n: 快， 警告他们面临的 *危险！*
+n: 快， 警告他們面臨的 *危險！*
 
 ```
 bb({eyes:"look"});
 ```
 
-[哦不，看那个恐怖的新闻！](#act1d_news)
+[哦不，看那個恐怖的新聞！](#act1d_news)
 
-[哦不，那条微博是不是在偷偷说*我们*？](#act1d_subtweet)
+[哦不，那條推文是不是在偷偷說*我們*？](#act1d_subtweet)
 
-[嘿，一张猫喝牛奶的动图。](#act1d_milk)
+[嘿，一張貓喝牛奶的動畫。](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: 哈是啊很可爱，我--
+h: 哈是啊很可愛，我--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: **猫消化不了牛奶我们竟然在享受对动物的虐待我们真是大烂人**
+b: **貓消化不了牛奶我們竟然在享受對動物的虐待我們真是大爛人**
 
 (...200)
 

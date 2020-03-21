@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "点击" : "自动";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "點選" : "自動";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "对话速度" : "对话速度";
+		var dialogue = Game.TEXT_SPEED<80 ? "對話速度" : "對話速度";
 
 		// Put in the text
 		var span, chr;

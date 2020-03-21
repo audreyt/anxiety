@@ -15,19 +15,19 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if !_.PLAYED_BEFORE}}
-[#play1# **开始游戏！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# **開始遊戲！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act2"}}
-[**继续游戏**：派对](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[**繼續遊戲**：派對](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act3"}}
-[**继续游戏**：另一场派对](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[**繼續遊戲**：另一場派對](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act4"}}
-[**继续游戏**：另一个三明治](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[**繼續遊戲**：另一個三明治](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
@@ -35,14 +35,14 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
-[#play1# **重新游戏！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# **重新遊戲！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
-[章节选择](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
+[章節選擇](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[（注意事项）](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[（注意事項）](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
@@ -50,33 +50,33 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 [I.三明治](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
-[II.派对](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[II.派對](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 
 {{if window.localStorage.act3}}
-[III.另一场派对](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[III.另一場派對](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act3}}
-[III.另一场派对]()
+[III.另一場派對]()
 {{/if}}
 
 {{if window.localStorage.act4}}
-[IV.另一个三明治](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[IV.另一個三明治](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act4}}
-[III. 另一个三明治]()
+[III. 另一個三明治]()
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V.制作人员](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[V.製作人員](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
-[V.制作人员]()
+[V.製作人員]()
 {{/if}}
 
-[（主菜单）](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[（主選單）](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: 欢迎！比起“游戏”，它更像是个互动故事。希望你阅读愉快，卢瑟！
+n3: 歡迎！這個「遊戲」比較像是個互動故事。希望你是那種喜歡讀很多字的書呆子！
 
-n3: 所以在我们开始之前， *你* 有什么阅读偏好？
+n3: 所以在我們開始之前， *你* 有什麼閱讀偏好？
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: 很好！注意：你随时可以点击 ⚙ 图标改变设置。并且，游戏在每个章节会自动保存！
+n3: 很好！注意：你隨時可以點選 ⚙ 圖示改變設定。並且，遊戲在每個章節會自動儲存！
 
-n3: 好，让我们的故事开始吧...
+n3: 好，讓我們的故事開始吧...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: 好，让我们的故事开始吧...
 
 `publish("intro-to-game-2")`
 
-n2: 这是一个人类
+n2: 這是一個人類
 
 (...600)
 
