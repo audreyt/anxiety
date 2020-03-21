@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: 額，可不是嘛。
+a: 呃，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: 額，可不是嘛。
+a: 呃，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: 額，可不是嘛。
+a: 呃，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: 額，可不是嘛。
+a: 呃，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: 額，可不是嘛。
+a: 呃，可不是嘛。
 
 (#act2-preamble-end)
 
