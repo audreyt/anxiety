@@ -957,7 +957,7 @@ b: 結論：在自尊缺失的情況下，那麼比起什麼都不做，被要�
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009，心理科學。 你不信可以去知網搜，人類。
+b: Wood 2009，心理科學。 你不信可以去 Google 學術搜尋，人類。
 
 `bb({body:"scream_b_1"})`
 
