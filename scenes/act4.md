@@ -1132,7 +1132,7 @@ hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: 你知道的，那些心理諮詢小冊子裡寫的關於「人際溝通能力」的玩意兒。
+h: 你知道的，那些心理諮商小冊子裡寫的關於「人際溝通能力」的玩意兒。
 
 (#act4_something_else)
 
@@ -1196,7 +1196,7 @@ h: 我們可以慢慢養成更好的習慣，讓我們的人生邁向正軌，�
 
 `hong({body:"one_up"});`
 
-h: 如果需要，我們可以尋求專業的幫助-心理治療師或是心理諮詢師。
+h: 如果需要，我們可以尋求專業的幫助-臨床心理師或是諮商心理師。
 
 `hong({body:"normal"});`
 
@@ -1204,7 +1204,7 @@ h: 總會有辦法修好我們的。
 
 [如果我們沒法完全修好呢？](#act4_bad_fix_cant)
 
-[如果我們修*過多*了呢？](#act4_bad_fix_too_much)
+[如果我們修得*太好*了呢？](#act4_bad_fix_too_much)
 
 [我們負擔不起專業幫助。](#act4_bad_fix_afford)
 
