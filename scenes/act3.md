@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: 我很感激我可以把經驗傳授給你，然後幫你幹掉那頭野獸，就像我當時做的那樣。
+r: 我很高興可以把經驗傳授給你，然後幫你幹掉那頭野獸，就像我當時做的那樣。
 
 ```
 publish("act3",["roofhunter",2]);
