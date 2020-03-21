@@ -738,7 +738,7 @@ b: 接著說**蝴蝶效應**！你現在用的是不可分解的塑膠杯對吧�
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: **砰！垃圾坑埋的滲透液正在污染湖泊並殺死當地的孩子！**
+b: **砰！垃圾坑埋的滲透液正在汙染湖泊並殺死當地的孩子！**
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
