@@ -899,7 +899,7 @@ h: 也許我不該拒絕那個邀請的？
 {{/if}}
 
 {{if _.badnews}}
-[等等我們還沒核查事實就轉發了。](#act1e_ignore_factcheck)
+[等等我們還沒查核事實就轉發了。](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
@@ -976,7 +976,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: 我們會被找出來登出賬號然後被綁在馬背上的繩子拖著沿資訊高速公路摩擦！
+b: 我們會被找出來登出帳號然後被綁在馬背上的繩子拖著沿資訊高速公路摩擦！
 
 ```
 hong({mouth:"shock", eyes:"shock"});
