@@ -1012,7 +1012,7 @@ h: 我們可以做些實驗！
 
 `hong({ body:"chin" });`
 
-h: 我們可以約個朋友出去玩，重新聯絡一個以前的朋友，或者就只是和一個咖啡師嘮會嗑。
+h: 我們可以約朋友出去玩，重新聯絡以前的朋友，或者就只是和咖啡師閒聊。
 
 `hong({ body:"normal" });`
 
@@ -1024,7 +1024,7 @@ h: 我覺得我們也許會發現我們比自己想的要更討人喜歡。
 
 [如果這給別人造成了負擔呢？](#act4_alone_experiment_burden)
 
-[但只是嘮會嗑無法代表*真實的*我們！](#act4_alone_experiment_real_us)
+[但只是閒聊無法代表*真實的*我們！](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
@@ -1098,7 +1098,7 @@ b: 對！也許說了「嗨」之後，我們下一步可以說...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *「你怎麼樣？」*
+b: *「你好嗎？」*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
