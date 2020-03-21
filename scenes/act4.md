@@ -436,7 +436,7 @@ h: 親愛的內心的狼...*你*現在感覺怎麼樣？
 
 n2: 總共使用的恐懼：
 
-n2: *受傷* {{_.attack_harm_total}}、*不被愛* {{_.attack_alone_total}}、*壞人* {{_.attack_bad_total}}
+n2: *受傷* {{_.attack_harm_total}}, *不被愛* {{_.attack_alone_total}}, *壞人* {{_.attack_bad_total}}
 
 n2: 你想先談哪個恐懼？（其他的可以等會再談）
 
