@@ -558,7 +558,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: **等一下不我剛剛那是逆向心理學你應該故意不聽我說**--
+b: **等一下不我剛剛那是反向心理學你應該故意不聽我說**--
 
 (#act3_bad_3)
 
