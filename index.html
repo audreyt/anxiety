@@ -5,7 +5,9 @@
 	<!-- THE BIG META -->
 	<title>和焦慮一起冒險！</title>  <!-- TRANSLATE -->
 	<meta name="description" content="一個關於人類和他們的焦慮的敘事遊戲。你來扮演焦慮。" />  <!-- TRANSLATE: content -->
+        <meta name="theme-color" content="#ffeeee" />
 	<link rel="icon" type="image/png" href="favicon.png">
+        <link rel="manifest" href="manifest.webmanifest">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -109,7 +111,7 @@
 			其他注意事項：酗酒，性<span class="hide-if-cuss-free">，很@✩$!多髒話</span>
 		</p>
 		<p>
-			<a target="_blank" href="https://ncase.me/mental-health/">心理健康小祕訣&amp;資源</a>
+			<a target="_blank" href="https://audreyt.github.io/mental-health/zh-TW">心理健康小祕訣&amp;資源</a>
 			&#x1f517;
 		</p>
 		<div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
@@ -125,7 +127,7 @@
 			<!-- TRANSLATE THIS -->
 			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
 				心理健康
-				<a href="https://ncase.me/mental-health/" target="_blank">資源</a>
+				<a href="https://audreyt.github.io/mental-health/zh-TW" target="_blank">資源</a>
 			</div>
 
 			<div style="margin-top: 26px; color: #999;">
@@ -253,7 +255,7 @@
 </div>
 
 <div class="corner-text" id="bottomright">
-<a href="https://ncase.me/mental-health/" target="_blank">心理健康小祕訣&amp;資源</a>
+<a href="https://audreyt.github.io/mental-health/zh-TW" target="_blank">心理健康小祕訣&amp;資源</a>
 <span class="hide-if-cuss-free">
 	<br><br>
 	<a href="?c=1">文雅模式</a><br>
@@ -323,3 +325,14 @@
 
 <!-- LET'S GO! -->
 <script src="scripts/main.js"></script>
+
+<!-- PWA -->
+<script>/*if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+    }).catch(function(err) {
+      console.log('sw registration failed');
+    });
+  });
+}*/</script>

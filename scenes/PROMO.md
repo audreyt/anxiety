@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: 所以在我們開始之前， *你* 有什麼閱讀偏好？
+n3: 所以在我們開始之前，請問 *你* 有什麼閱讀偏好？
 
 `publish("show_options_bottom")`
 
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: 不。不，沒有，沒在聽。我得看下手機。
+h: 不。 不，沒有，沒在聽。 我得看下手機。
 
 ```
 sfx("rustle2");
@@ -77,14 +77,14 @@ n: 你的任務是從 *危險* 中保護人類
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: 天啊！你又在把人生和推特一起刷走了！
+b: 天啊！ 你又在把 *人生* 和 *推特* 一起刷走了！
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: 是啊我在想為什麼我不多坐著然後聽我的內心發言。
+h: 是啊我在想 *為什麼我不多坐著* 然後聽我的內心發言。
 
 `hong({eyes:"neutral"});`
 
@@ -94,11 +94,11 @@ n: 快， 警告他們面臨的 *危險！*
 bb({eyes:"look"});
 ```
 
-[哦不，看那個恐怖的新聞！](#act1d_news)
+[哦不， 看那個恐怖的新聞！](#act1d_news)
 
-[哦不，那條推文是不是在偷偷說*我們*？](#act1d_subtweet)
+[哦不， 那條推文是不是在偷偷說*我們*？](#act1d_subtweet)
 
-[嘿，一張貓喝牛奶的動畫。](#act1d_milk)
+[嘿， 一張貓喝牛奶的動畫。](#act1d_milk)
 
 # act1d_milk
 
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: **貓消化不了牛奶我們竟然在享受對動物的虐待我們真是大爛人**
+b: **貓消化不了牛奶** **我們竟然在享受對動物的虐待** **我們真是大爛人**
 
 (...200)
 

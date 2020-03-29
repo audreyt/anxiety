@@ -35,7 +35,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
-[#play1# **重新遊戲！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# **再玩一次！** #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: 歡迎！這個「遊戲」比較像是個互動故事。希望你是那種喜歡讀很多字的書呆子！
+n3: 歡迎！ 這個「遊戲」比較像是個互動故事。 希望你是那種喜歡讀很多字的書呆子！
 
-n3: 所以在我們開始之前， *你* 有什麼閱讀偏好？
+n3: 所以在我們開始之前，請問 *你* 有什麼閱讀偏好？
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: 很好！注意：你隨時可以點選 ⚙ 圖示改變設定。並且，遊戲在每個章節會自動儲存！
+n3: 很好！ 注意： 你隨時可以點選 ⚙ 圖示改變設定。 另外， 遊戲在每個章節會自動儲存！
 
-n3: 好，讓我們的故事開始吧...
+n3: 好， 讓我們的故事開始吧...
 
 `clearText()`
 
